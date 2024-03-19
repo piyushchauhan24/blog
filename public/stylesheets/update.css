@@ -1,0 +1,42 @@
+
+.delete, .update, #yes, #no{
+    cursor: pointer;
+    padding:10px 20px;
+    background-color: rgb(255, 201, 129);
+    margin-bottom:10px;
+}
+#prompt{
+    background-color: rgb(249, 184, 99);
+    width:70vw;
+    position: absolute;
+    top:0;
+    padding:30px;
+    left:calc(50% - 35vw);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#prompt div{
+    width:100%;
+}
+#updated{
+    flex-direction: column;
+    justify-content: start;
+}
+#updated-title, #updated-content{
+    display: none;
+    resize: none;
+    font-size: 1.25rem;
+    margin:10px 0px;
+    width:100%;
+    padding: 10px;
+}
+#updated-content{
+    height: 35vh;
+}
+#button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
